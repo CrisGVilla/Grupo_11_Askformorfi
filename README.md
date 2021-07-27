@@ -5,7 +5,7 @@ Cristian Villanueva:
 Franco:
 Santi Carranza:
 
-Referentes de Mercado: --> todos los siguientes sitios web fueron seleccionado por sus diversos alcances de clientela y estilos de cocina para combinarlos en el unico estilo que ofrece Askformorfi.
+Referentes de Mercado: --> Los siguientes sitios web fueron seleccionado por sus diversos alcances de clientela y estilos de cocina para combinarlos en el unico estilo que ofrece Askformorfi.
 1.www.Tegui.com.ar 
 2.https://www.kansasgrillandbar.com.ar
 3.https://sigalavaca.com
