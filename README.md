@@ -12,4 +12,6 @@ Referentes de Mercado: --> Los siguientes sitios web fueron seleccionado por sus
 4.https://www.losmaestros.com.ar
   https://pedidos.masdelivery.com/los-maestros-barrio-norte
 5.https://www.laparolaccia.com
-6.??? Rappi // Pedidos Ya ???
+6.https://fuelshack.com.my/
+7.https://www.easybistro.com/
+8.https://onepagelove.com/altius
