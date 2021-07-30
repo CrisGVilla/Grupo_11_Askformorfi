@@ -1,9 +1,9 @@
 # Grupo_11_Askformorfi
 Descripcion: Ecommerce gastronómico para delivery o pick up para todo público hambriento, desde "Cocina Gourmet de autor contemporánea" hasta el clásico "Milanesas con puré".
 
-Cristian Villanueva:
-Franco Mammoli:
-Santi Carranza:
+Cristian Villanueva, 
+ Franco Mammoli,
+ Santi Carranza
 
 Referentes de Mercado: --> Los siguientes sitios web fueron seleccionado por sus diversos alcances de clientela y estilos de cocina para combinarlos en el unico estilo que ofrece Askformorfi.
 1.www.Tegui.com.ar 
