@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <!-- link a el css, siempre va ultimo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Ingresa tus datos y registrate</h1>
+    <form action="/registro" method="POST">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre">
+        </div>
+        <div>
+            <label>Apellido:</label>
+            <input type="text" name="apellido" placeholder="Apellido">
+        </div>
+        <div>
+            <label>Nombre de usuario:</label>
+            <input type="text" name="username" placeholder="Nombre de usuario">
+        </div>
+        <div>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fecha">
+        </div>
+        <div>
+            <label>Correo electronico:</label>
+            <input type="email" name="mail" placeholder="Email">
+        </div>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" name="clave" placeholder="Contraseña">
+        </div>
+
+        <button type="submit">¡Regístrate!</button>
+    
+    </form>
+</body>
+</html>
