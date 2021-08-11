@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Register */
+
+.bodyRegister{
+    background-color: #424141;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.registerForm{
+    background-color: #F7F5F4;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.bodyRegister h1{
+    color: #BDBBBB;
+    text-align: center;
+}
+
+.registerForm div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    justify-content: space-evenly;
+}
+
+.registerForm div label{
+    text-align: center;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.buttonDivForm{
+    display: flex;
+    justify-content: center;
+}
+
+/* Log In */ 
+

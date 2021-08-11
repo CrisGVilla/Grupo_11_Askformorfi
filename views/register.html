@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
+    <title>Registro</title>
     <!-- link a el css, siempre va ultimo -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <h1>Ingresa tus datos y registrate</h1>
-    <form action="/registro" method="POST">
+<body class="bodyRegister">
+    <h1>Ingresá tus datos y registrate</h1>
+    <form action="/registro" method="POST" class="registerForm">
         <div>
-            <label>Nombre:</label>
-            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="nombre" placeholder="Nombre" required>
         </div>
         <div>
-            <label>Apellido:</label>
-            <input type="text" name="apellido" placeholder="Apellido">
+            <input type="text" name="apellido" placeholder="Apellido" required>
         </div>
         <div>
-            <label>Nombre de usuario:</label>
-            <input type="text" name="username" placeholder="Nombre de usuario">
+            <input type="text" name="username" placeholder="Nombre de usuario" required>
         </div>
         <div>
             <label>Fecha de nacimiento:</label>
-            <input type="date" name="fecha">
+            <input type="date" name="fecha" required>
         </div>
         <div>
-            <label>Correo electronico:</label>
-            <input type="email" name="mail" placeholder="Email">
+            <input type="email" name="mail" placeholder="E-mail" required>
         </div>
         <div>
-            <label>Contraseña:</label>
-            <input type="password" name="clave" placeholder="Contraseña">
+            <input type="email" name="mail2" placeholder="Confirmar E-mail" required>
         </div>
-
-        <button type="submit">¡Regístrate!</button>
-    
+        <div>
+            <input type="password" name="clave" placeholder="Contraseña" required>
+        </div>
+        <div>
+            <input type="password" name="clave2" placeholder="Confirmar Contraseña" required>
+        </div>
+        <div class="buttonDivForm">
+            <button type="submit">Registrarse</button>
+        </div>
     </form>
 </body>
 </html>
