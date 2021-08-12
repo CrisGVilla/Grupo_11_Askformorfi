@@ -5,14 +5,12 @@ const app = express();
 // requiere el modulo path de Node, para que nos de la ruta absoluta
 const path = require('path');
 // guarda en una constante y utiliza la funcion resolve para devolver la ruta absoluta
-const publicPath = path.resolve('public');
+const publicPath = path.resolve(__dirname,'./public');
 // usa la funcion use de express y la pasamos la constante con la ruta absoluta
 app.use(express.static(publicPath));
 //levantamos el seridor en el puerto 3000
 app.listen(3000, () =>{
-
     console.log('Servidor corriendo');
-
 });
 
 //#region 

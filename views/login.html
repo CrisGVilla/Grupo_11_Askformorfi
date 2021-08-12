@@ -8,20 +8,26 @@
      <!-- link a el css, siempre va ultimo -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bodyLogin">
     <h1>Iniciar sesión</h1>
-    <form action="/registro" method="POST">
-        <div>
-            <label>Nombre de usuario:</label>
+    <form action="/registro" method="POST" class="loginForm">
+        <div class="userNameDiv">   
             <input type="text" name="username" placeholder="Nombre de usuario">
         </div>
         <div>
-            <label>Contraseña:</label>
             <input type="password" name="clave" placeholder="Contraseña">
         </div>
-
-        <button type="submit">Iniciar sesión</button>
+        <div class="buttonDivLoginForm">
+        <button type="submit">Registrarse</button>
+        </div>
     
     </form>
+    <footer>
+        <div>
+            Hola Gente , soy un footer
+            <br>
+            Sigo siendo el Footer, Hola de Nuevo
+        </div>
+    </footer>
 </body>
 </html>
