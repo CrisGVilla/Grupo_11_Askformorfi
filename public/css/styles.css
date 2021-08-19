@@ -1,0 +1,811 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header a{
+    color: #e3e4e5;
+}
+
+/* Index */
+
+.indexBody{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Header */
+
+header{    
+    font-family: noto sans;
+    background-color: #49111C;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #e3e4e5;
+}
+
+header h4{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+/* Nav Index */
+
+.headerDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.headerDiv nav ul li:hover{
+    background-color: #e3e4e5;
+}
+
+.headerDiv a{
+    width: 50%;
+}
+
+.logInNav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.navigationBar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.logInNav ul{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    text-align: right;
+}
+
+.navigationBar ul{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    text-align: right;
+}
+
+.navigationBar ul li{
+    background-color: #fff;
+    list-style: none;
+    width: 43%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 15px 50px;
+}
+
+.logInNav ul li{
+    background-color: #FFF;
+    list-style: none;
+    width: 45%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 15px 50px;
+}
+
+.logo{
+    width: 80px;
+    position: absolute;
+    right: -1px;
+    top: 1px;
+}
+
+.contentDiv{
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 0 0 0 2.5px #49111C  ,
+                0 15px 50px;
+    border-radius: 0.9px;
+    background-color: #A99264;
+    font-family: noto sans;
+}
+
+.contentDiv h3{
+    text-align: center;
+}
+
+.contentDiv p, h3{
+    padding: 5px;
+    margin: 0;
+}
+
+.contentDiv p{
+    text-align: justify;
+    border-radius: 1px;
+}
+
+/* Slider */
+
+.fatherSlider{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    min-height: 65vw;
+    flex-wrap: wrap;
+}
+
+.containerSlider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    height: 200px;
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+    position: relative;
+}
+
+.sliderSection{
+    width: 100%;
+}
+
+.sliderImg{
+    width:100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.sliderBtn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    opacity: 0.7;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sliderBtn:hover{
+    background-color: #fff;
+}
+
+.sliderLeftButton{
+    left: 2px;
+}
+
+.sliderRightButton{
+    right: 2px;
+}
+
+.sliderRightButton:focus .sliderImg{
+    z-index: 1;
+}
+
+/* footer */
+
+footer{
+    background-color: #49111C;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    padding: 1.5px;
+}
+
+footer div{
+    margin: 0;
+    width: 100%;
+    background-color:#49111C;
+    color: white;
+}
+
+footer div:first-child{
+    text-align: center;
+    margin: 0;
+}
+
+.copyrightFooter{
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Register */
+
+.bodyRegister{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.mainRegister{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.registerForm{
+    background-color: #A99264;
+    width: 80%;
+    justify-content: center;
+    border-radius: 0.5px;
+    box-shadow: 0 0 0 2.5px #49111c,
+                0 15px 50px;
+    height: 75vh;
+    margin-top: 25px;
+}
+
+.bodyRegister h2{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.registerForm div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    justify-content: space-evenly;
+}
+
+.registerForm div label{
+    text-align: center;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.buttonDivForm{
+    display: flex;
+    justify-content: center;
+}
+
+/* Log In */
+
+.bodyLogin{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.loginForm{
+    background-color: #A99264;
+    width: 80%;
+    justify-content: center;
+    border-radius: 0.5px;
+    box-shadow: 0 0 0 2.5px #49111c,
+                0 15px 50px;
+    height: 50vh;
+    margin-top: 25px;
+}
+
+.inputLoginContainer{
+    margin: auto;
+}
+
+.bodyLogin h2{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    height: 5vh;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.loginForm div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    justify-content: space-evenly;
+}
+
+.userNameDiv{
+    margin-top: 12px;
+}
+
+.buttonDivLoginForm{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonLogin:hover{
+    background-color: #e3e4e5;
+}
+
+
+/* RESPONSIVE */
+
+@media(min-width: 361px){
+    /* INDEX */
+    .navigationBar{
+        display: none;
+    }
+}
+
+@media(min-width:768px){
+    /* INDEX */
+    header{
+        align-items: center;
+        height: 80px;
+    }
+
+    header h4{
+        font-size: 20px;
+    }
+    .logo{
+        width: 114px;
+        right: 9px;
+        top: 3px;
+    }
+    .headerDiv{
+        justify-content: space-between;
+        margin-top: 0.5px;
+        margin-bottom: 0.5px;
+        margin-right: 50px;
+    }
+    .logInNav{
+        width: 37.5%;
+    }
+    .logInNav ul{
+        width: 75%;
+        margin-top: 5px;
+        margin-right: 12.5px;
+        padding: 0;
+    }
+    .logInNav ul li{
+        padding: 5px;
+    }
+    .navigationBar{
+        display: block;
+    }
+
+    .navigationBar ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 12.5px;
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    .navigationBar ul li{
+        padding: 5px;
+        width: 40%;
+        margin-right: 12.5px;
+    }
+
+    .contentDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentDiv:first-child{
+        margin-top: 40px;
+    }
+
+    .fatherSlider{
+        min-height: 45vh;
+    }
+
+    .slider{
+        height: 350px;
+    }
+
+    /* LOG IN */
+
+    .loginForm{
+        height: 40vh;
+    }
+
+    .inputLoginContainer{
+        margin-top: 5%;
+    }
+
+    .inputLoginContainer h2{
+        width: 100%;
+        font-size: 33px;
+        margin-bottom: 5%;
+    }
+
+    .formContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30%;
+    }
+}
+
+/* Cart */
+
+main section article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: grey;
+    max-height: 120px;
+}
+
+main section article div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 110px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.product_image{
+    width: 35%;
+}
+
+.cartImg{
+    border-radius: 5%;
+    height: 100px;
+    width: 90%;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.item-description{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    max-height: 110px;    
+    text-align: center;
+}
+
+.product-name{
+    height: 20%;
+    margin-bottom: 4%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: honeydew;
+    border-radius: 3px;
+}
+
+.product-numbers{
+    height: 33%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-quantity{
+    width: 40%;
+
+}
+
+.quantity-only{
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    background-color: honeydew;
+    border-radius: 3px;
+}
+
+
+.product-price{
+    width: 55%;
+    justify-content: flex-end;
+    background-color: honeydew;
+    border-radius: 3px;
+
+}
+
+.subtotal{
+    font-weight: bold;
+    color: honeydew;
+    height: 33%;
+    width: 60%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.delete-item{
+    margin-bottom: 1.5%;
+}
+
+.purchase-summary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+@media(min-width:769px){
+    /* INDEX */
+    .fatherSlider{
+        min-height: 42vh;
+        margin: 5% 0px;
+    }
+
+    .contentDiv{
+        width: 75vw;
+        margin: auto;
+    }
+
+    .logInNav{
+        width: 25.5%;
+    }
+
+    .navigationBar{
+        width: 37%;
+    }
+
+    /* LOG IN */
+
+    .loginForm{
+        margin: 0;
+    }
+    
+    /* Product Cart */
+
+    main h4{
+        margin-left: 10%;
+    }
+
+    main section {
+
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .product_image{
+        width: 20%;
+    }
+
+
+    .item-description{
+        height: 100%; 
+        width: 75%;       
+    }
+
+    .subtotal{
+        font-weight: bold;
+        color: honeydew;
+        height: 100%;
+        width: 60%;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 1.1%;
+    }
+
+    .delete-item{
+        margin-top: 0.85%;
+    }
+
+    /* productDetail */
+    .catalogoP{
+
+    height:100%;
+    width: 100%;
+     
+    }
+    .catalogoP .divCat{
+
+        display: inline;
+        height: 100vh;
+        width: 33vw;
+        z-index: -10;
+      
+    }
+    .catalogoP .divCat .imgCat{
+
+        height: 100vh;
+        width: 80vw;
+    }
+
+    .catalogoP .divCat #imgPostre{
+   
+      width: 50vw;
+       
+    }
+
+    .menuC{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+       
+         justify-content: center;
+    }
+    .comida, .postres, .bebidas{
+
+        width: 100vw;
+        height: 100vh;
+       display: flex;
+       flex-wrap: wrap;
+        justify-content: center;
+           
+    }   
+    .comida{
+        background-image: url(/images/comidaF.jpg)
+    }
+
+     .comida .Mv ,  .postres .Mv, .bebidas .Mv{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(255, 255, 255,1);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: whitesmoke;
+    }
+    
+
+
+     .comida .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+    }
+    .bebidas{
+        background-image: url(/images/bebidaF.jpg);
+    }
+    .bebidas .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+
+    }
+   .postres{
+       background-image: url(/images/postreF.jpg);
+   }
+    .postres .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+    }
+   
+   
+    .comida .Mv .imgMV,.bebidas .Mv .imgMV, .postres .Mv .imgMV {
+
+        height: 200px;
+        width: 280px;
+
+    }
+   
+    .comida .Mv p ,.bebidas .Mv p,  .postres .Mv p {
+
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        
+    }
+    
+    .catalogoP{
+        position: relative;
+    }
+    
+    .catalogoP h2 {
+
+        position: absolute;
+    }
+
+    .C{
+
+        left: 8vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .P{
+        left: 42vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .B{
+        left: 76vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+      
+    }
+
+
+    .C:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+
+    .P:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+   
+    .B:hover{
+
+        transform: translateY(-15px);
+        
+
+    }
+
+
+}
