@@ -15,3 +15,4 @@ Referentes de Mercado: --> Los siguientes sitios web fueron seleccionado por sus
 6.https://fuelshack.com.my/
 7.https://www.easybistro.com/
 8.https://onepagelove.com/altius
+Enlace al tablero de trabajo : https://trello.com/b/X9qGcttV/tareas
