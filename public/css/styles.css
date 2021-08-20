@@ -646,5 +646,165 @@ main section article div{
         margin-top: 0.85%;
     }
 
+    /* productDetail */
+    .catalogoP{
+
+    height:100%;
+    width: 100%;
+     
+    }
+    .catalogoP .divCat{
+
+        display: inline;
+        height: 100vh;
+        width: 33vw;
+        z-index: -10;
+      
+    }
+    .catalogoP .divCat .imgCat{
+
+        height: 100vh;
+        width: 80vw;
+    }
+
+    .catalogoP .divCat #imgPostre{
+   
+      width: 50vw;
+       
+    }
+
+    .menuC{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+       
+         justify-content: center;
+    }
+    .comida, .postres, .bebidas{
+
+        width: 100vw;
+        height: 100vh;
+       display: flex;
+       flex-wrap: wrap;
+        justify-content: center;
+           
+    }   
+    .comida{
+        background-image: url(/images/comidaF.jpg)
+    }
+
+     .comida .Mv ,  .postres .Mv, .bebidas .Mv{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(255, 255, 255,1);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: whitesmoke;
+    }
+    
+
+
+     .comida .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+    }
+    .bebidas{
+        background-image: url(/images/bebidaF.jpg);
+    }
+    .bebidas .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+
+    }
+   .postres{
+       background-image: url(/images/postreF.jpg);
+   }
+    .postres .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+
+
+    }
+   
+   
+    .comida .Mv .imgMV,.bebidas .Mv .imgMV, .postres .Mv .imgMV {
+
+        height: 200px;
+        width: 280px;
+
+    }
+   
+    .comida .Mv p ,.bebidas .Mv p,  .postres .Mv p {
+
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        
+    }
+    
+    .catalogoP{
+        position: relative;
+    }
+    
+    .catalogoP h2 {
+
+        position: absolute;
+    }
+
+    .C{
+
+        left: 8vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .P{
+        left: 42vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .B{
+        left: 76vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+      
+    }
+
+
+    .C:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+
+    .P:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+   
+    .B:hover{
+
+        transform: translateY(-15px);
+        
+
+    }
+
 
 }
