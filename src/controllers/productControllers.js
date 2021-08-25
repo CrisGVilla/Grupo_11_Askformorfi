@@ -11,6 +11,9 @@ const productController = {
     detail: (req,res) => {
         res.render('productDetail');
     },
+    load: (req, res) => {
+        res.render('productsLoadForm')
+    }
 }
 
 module.exports = productController;

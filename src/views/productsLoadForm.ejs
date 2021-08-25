@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <%- include('./partials/head', {tittle: 'Carga Productos'}) %>
+
+    <%- include('./partials/header') %>
+    <body class="productsLoadFormBody">
+        <main class="mainProductLoadForm">
+    <form action="/productos" method="POST" class="registerProductsLoadForm">
+        <h2 class="pLoadFormH2">Carga de Productos</h2>
+        <div class="mainDivForm">    
+            <div class="divLoadForm">
+                <input type="text" name="productname" placeholder="Nombre del Producto" required>
+            </div>
+            <div class="divLoadForm">
+                <input type="text" name="descripcion" placeholder="Descripción del producto" required>
+            </div>
+            <div class="divLoadForm">
+                <label>Categoría del producto:</label>
+                <select name=categoria>
+                    <option value=1>Categoría 1</option>
+                    <option value=2>Categoría 2</option>
+                    <option value=3>Categoría 3</option>
+                    <option value=4>Categoría 4</option>
+                    <option value=5>Categoría 5</option>
+                </select>
+            </div>
+            <div class="divLoadForm">
+                <label class="pimg">Imagen del producto:</label>
+                <input type="file" name="imagen" required class="pimg">
+            </div>
+            <div class="divLoadForm">
+                <input type="number" name="precio" placeholder="Precio del producto" required>
+            </div>
+            <div class="buttonDivForm">
+                <button type="submit">Subir producto</button>
+            </div>
+        </div>
+        </form>
+        </main>
+    <%- include('./partials/footer') %>
+    </body>
+</html>
