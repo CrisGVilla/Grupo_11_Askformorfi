@@ -312,6 +312,44 @@ footer div:first-child{
     justify-content: center;
 }
 
+/* Load Products Form */
+
+.registerProductsLoadForm{
+    background-color: #A99264;
+    width: 90%;
+    justify-content: center;
+    border-radius: 0.5px;
+    box-shadow: 0 0 0 2.5px #49111c,
+                0 15px 50px;
+    height: 75vh;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.registerProductsLoadForm h2{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.divLoadForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.registerProductsLoadForm div label{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
 /* Log In */
 
 .bodyLogin{
@@ -558,6 +596,17 @@ main section article div{
 
     .slider{
         height: 350px;
+        max-width: 525px;
+    }
+
+    .sliderSection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .sliderImg{
+        max-width: 525px;
     }
 
     /* LOG IN */
@@ -582,6 +631,27 @@ main section article div{
         align-items: center;
         margin-top: 30%;
     }
+
+    /*  Load Products */
+
+
+    .mainProductLoadForm{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    
+    .registerProductsLoadForm{
+            background-color: #A99264;
+            width: 70%;
+            justify-content: center;
+            border-radius: 0.5px;
+            box-shadow: 0 0 0 2.5px #49111c, 0 15px 50px;
+            height: 60vh;
+            margin-top: 25px;
+    }    
+
 }
 
 @media(min-width:769px){
@@ -602,6 +672,10 @@ main section article div{
 
     .navigationBar{
         width: 37%;
+    }
+
+    .slider{
+        max-height: 425px;
     }
 
     /* LOG IN */
@@ -807,5 +881,21 @@ main section article div{
 
     }
 
+    /*  Product Load */
 
+    .registerProductsLoadForm{
+        margin-top: 4.5%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50vw;;
+    }
+
+    .registerProductsLoadForm h2{
+        margin-top: 2.5%;
+        width: 100%;
+    }
+
+    .mainDivForm{
+        height: 80%;
+    }
 }
