@@ -368,111 +368,6 @@ footer div:first-child{
     background-color: #e3e4e5;
 }
 
-/* RESPONSIVE */
-
-@media(min-width: 361px){
-    /* INDEX */
-    .navigationBar{
-        display: none;
-    }
-}
-
-@media(min-width:768px){
-    /* INDEX */
-    header{
-        align-items: center;
-        height: 80px;
-    }
-
-    header h4{
-        font-size: 20px;
-    }
-    .logo{
-        width: 114px;
-        right: 9px;
-        top: 3px;
-    }
-    .headerDiv{
-        justify-content: space-between;
-        margin-top: 0.5px;
-        margin-bottom: 0.5px;
-        margin-right: 50px;
-    }
-    .logInNav{
-        width: 37.5%;
-    }
-    .logInNav ul{
-        width: 75%;
-        margin-top: 5px;
-        margin-right: 12.5px;
-        padding: 0;
-    }
-    .logInNav ul li{
-        padding: 5px;
-    }
-    .navigationBar{
-        display: block;
-    }
-
-    .navigationBar ul{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: left;
-        width: 100%;
-        margin-top: 5px;
-        margin-left: 12.5px;
-        margin-right: 0px;
-        padding: 0;
-    }
-
-    .navigationBar ul li{
-        padding: 5px;
-        width: 40%;
-        margin-right: 12.5px;
-    }
-
-    .contentDiv{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contentDiv:first-child{
-        margin-top: 40px;
-    }
-
-    .fatherSlider{
-        min-height: 45vh;
-    }
-
-    .slider{
-        height: 350px;
-    }
-
-    /* LOG IN */
-
-    .loginForm{
-        height: 40vh;
-    }
-
-    .inputLoginContainer{
-        margin-top: 5%;
-    }
-
-    .inputLoginContainer h2{
-        width: 100%;
-        font-size: 33px;
-        margin-bottom: 5%;
-    }
-
-    .formContainer{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 30%;
-    }
-}
 
 /* Cart */
 
@@ -583,6 +478,111 @@ main section article div{
     margin-bottom: 5%;
 }
 
+/* RESPONSIVE */
+
+@media(min-width: 361px){
+    /* INDEX */
+    .navigationBar{
+        display: none;
+    }
+}
+
+@media(min-width:768px){
+    /* INDEX */
+    header{
+        align-items: center;
+        height: 80px;
+    }
+
+    header h4{
+        font-size: 20px;
+    }
+    .logo{
+        width: 114px;
+        right: 9px;
+        top: 3px;
+    }
+    .headerDiv{
+        justify-content: space-between;
+        margin-top: 0.5px;
+        margin-bottom: 0.5px;
+        margin-right: 50px;
+    }
+    .logInNav{
+        width: 37.5%;
+    }
+    .logInNav ul{
+        width: 75%;
+        margin-top: 5px;
+        margin-right: 12.5px;
+        padding: 0;
+    }
+    .logInNav ul li{
+        padding: 5px;
+    }
+    .navigationBar{
+        display: block;
+    }
+
+    .navigationBar ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 12.5px;
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    .navigationBar ul li{
+        padding: 5px;
+        width: 40%;
+        margin-right: 12.5px;
+    }
+
+    .contentDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentDiv:first-child{
+        margin-top: 40px;
+    }
+
+    .fatherSlider{
+        min-height: 45vh;
+    }
+
+    .slider{
+        height: 350px;
+    }
+
+    /* LOG IN */
+
+    .loginForm{
+        height: 40vh;
+    }
+
+    .inputLoginContainer{
+        margin-top: 5%;
+    }
+
+    .inputLoginContainer h2{
+        width: 100%;
+        font-size: 33px;
+        margin-bottom: 5%;
+    }
+
+    .formContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30%;
+    }
+}
 
 @media(min-width:769px){
     /* INDEX */
@@ -647,6 +647,7 @@ main section article div{
     }
 
     /* productDetail */
+    
     .catalogoP{
 
     height:100%;

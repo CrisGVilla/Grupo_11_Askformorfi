@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head',{tittle: 'Sing Up'}) %>
+<body class="bodyRegister">
+    <%- include('./partials/header') %>
+    <main class="mainRegister">
+    <form action="/registro" method="POST" class="registerForm">
+    <h2>Ingresá tus datos y registrate</h2>
+    <div>    
+
+        <div>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+        </div>
+        <div>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+        </div>
+        <div>
+            <input type="text" name="username" placeholder="Nombre de usuario" required>
+        </div>
+        <div>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fecha" required>
+        </div>
+        <div>
+            <input type="email" name="mail" placeholder="E-mail" required>
+        </div>
+        <div>
+            <input type="email" name="mail2" placeholder="Confirmar E-mail" required>
+        </div>
+        <div>
+            <input type="password" name="clave" placeholder="Contraseña" required>
+        </div>
+        <div>
+            <input type="password" name="clave2" placeholder="Confirmar Contraseña" required>
+        </div>
+        <div class="buttonDivForm">
+            <button type="submit">Registrarse</button>
+        </div>
+    </div>
+    </form>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

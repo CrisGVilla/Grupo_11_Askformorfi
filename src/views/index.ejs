@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head',{tittle: 'Ask For Morfi'}) %>
+<body class="indexBody">
+    <%- include('./partials/header') %>
+    <div class="headerDiv">
+        <nav class="navigationBar">
+            <ul>
+                <li><a href="/products/productDetail">Nuestros Productos</a></li>
+                <li><a href="/products/productCart">Tu Carrito</a></li>
+            </ul>
+        </nav>
+        <nav class="logInNav">
+            <ul>
+                <li><a href="login" class="loginLiA">Log In</a></li>
+                <li><a href="sing-up" class="loginLiA">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="indexMain">
+    <div class="contentDiv">
+            <h3>Sobre Nosotros</h3>
+                <p>
+                Nuestro proyecto comenzó frente a la necesidad de un público que pudiese acceder a todo tipo de comida en lugar a uno regido sólo por los valores del mercado, tanto que buscamos ofrecer todas las ramas que el mundo culinario tiene para degustar a un precio accesible.
+                </p> 
+    </div>
+        <div class="fatherSlider">
+            <div class="slider" id="slider">
+                <div class="sliderSection"></div>
+                    <img src="/img/slide1.jpeg" alt="" class="sliderImg">
+                <div class="sliderSection"></div>
+                    <img src="/img/slide2.jpeg" alt="" class="sliderImg">
+                <div class="sliderSection"></div>
+                    <img src="/img/slide3.jpeg" alt="" class="sliderImg">
+                <div class="sliderSection"></div>
+                    <img src="/img/slide4.jpeg" alt="" class="sliderImg">
+                <div class="sliderBtn sliderLeftButton">&#60</div>
+                <div class="sliderBtn sliderRightButton">&#62</div>
+            </div>
+    </div>
+    <div class="contentDiv">
+            <h3>Experiencias</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, delectus? Consequuntur facere minus, at, qui tenetur ratione ducimus illum accusamus exercitationem aspernatur debitis inventore perferendis eligendi sed quod unde incidunt?
+                </p>
+    </div>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

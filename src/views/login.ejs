@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head',{tittle: 'Log In'}) %>
+<body class="bodyLogin">
+    <%- include('./partials/header') %>
+    <div class="formContainer"></div>
+    <form action="/registro" method="POST" class="loginForm">
+    <div class="inputLoginContainer">
+        <h2>Iniciar sesión</h2>
+        <div class="userNameDiv">   
+            <input type="text" name="username" placeholder="Nombre de usuario">
+        </div>
+        <div>
+            <input type="password" name="clave" placeholder="Contraseña">
+        </div>
+        <div class="buttonDivLoginForm">
+        <button type="submit" class="buttonLogin">Iniciar Sesión</button>
+        </div>
+    </div>
+    </form>
+    <%- include('./partials/footer') %>
+</body>
+</html>

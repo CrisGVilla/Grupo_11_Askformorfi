@@ -1,14 +1,25 @@
 {
-  "name": "proyectointegrador",
+  "name": "Grupo_11_Askformorfi",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisGVilla/Grupo_11_Askformorfi.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/CrisGVilla/Grupo_11_Askformorfi/issues"
+  },
+  "homepage": "https://github.com/CrisGVilla/Grupo_11_Askformorfi#readme"
 }
