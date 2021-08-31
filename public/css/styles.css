@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+ }
+
 *{
     box-sizing: border-box;
 }
@@ -11,7 +15,7 @@ header a{
     color: #e3e4e5;
 }
 
-/* Index */
+/* --------------------------------------------Index-------------------------------------------------------- */
 
 .indexBody{
     display: flex;
@@ -21,7 +25,7 @@ header a{
 }
 
 
-/* Header */
+/* --------------------------------------------Header-------------------------------------------- */
 
 header{    
     font-family: noto sans;
@@ -50,7 +54,7 @@ header h4{
     text-align: center;
 }
 
-/* Nav Index */
+/* --------------------------------------------Nav Index-------------------------------------------- */
 
 .headerDiv{
     display: flex;
@@ -152,7 +156,7 @@ header h4{
     border-radius: 1px;
 }
 
-/* Slider */
+/* --------------------------------------------Slider-------------------------------------------- */
 
 .fatherSlider{
     margin-top: 5px;
@@ -227,7 +231,7 @@ header h4{
     z-index: 1;
 }
 
-/* footer */
+/* --------------------------------------------footer-------------------------------------------- */
 
 footer{
     background-color: #49111C;
@@ -257,7 +261,7 @@ footer div:first-child{
     font-size: 13px;
 }
 
-/* Register */
+/* --------------------------------------------Register-------------------------------------------- */
 
 .bodyRegister{
     display: flex;
@@ -312,7 +316,7 @@ footer div:first-child{
     justify-content: center;
 }
 
-/* Load Products Form */
+/* --------------------------------------------Load Products Form-------------------------------------------- */
 
 .registerProductsLoadForm{
     background-color: #A99264;
@@ -350,7 +354,7 @@ footer div:first-child{
 
 
 
-/* Log In */
+/* --------------------------------------------Log In-------------------------------------------- */
 
 .bodyLogin{
     display: flex;
@@ -407,7 +411,7 @@ footer div:first-child{
 }
 
 
-/* Cart */
+/* --------------------------------------------Cart-------------------------------------------- */
 
 main section article{
     display: flex;
@@ -516,6 +520,211 @@ main section article div{
     margin-bottom: 5%;
 }
 
+
+/*------------------------------Product Detail--------------------------------------------*/
+
+
+    .productDetail{
+
+        background-image: url(/images/spa4.png); 
+      
+        background-size: 100% 100%;
+        
+       }
+
+    .menuC{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+       
+         justify-content: center;
+    }
+    .comida, .postres, .bebidas{
+
+        width: 100vw;
+        height: 100vh;
+       display: flex;
+       position: relative;
+       flex-wrap: wrap;
+        justify-content: center;
+           
+    }   
+   
+     .comida .Mv ,  .postres .Mv, .bebidas .Mv{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(255, 255, 255,1);
+        overflow: hidden;
+        margin: 20px;
+        margin-top: 320px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: whitesmoke;
+    }
+
+
+     .comida .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+        overflow:visible bottom;
+        height: 400px;
+        
+    }
+    
+    .bebidas .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+        overflow:visible bottom;
+        height: 400px;
+
+    }
+  
+    .postres .Mv:hover{
+
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
+        overflow:visible bottom;
+        height: 400px;
+
+    }
+   
+   
+    .comida .Mv .imgMV,.bebidas .Mv .imgMV, .postres .Mv .imgMV {
+
+        height: 200px;
+        width: 280px;
+
+    }
+   
+    .comida .Mv p ,.bebidas .Mv p,  .postres .Mv p {
+
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        
+    }
+     
+    .pre{
+        position: absolute;
+        top: 345px;
+    }
+
+    .iconShop{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        background-color: green;
+        top: 330px;
+        left: 150px;
+    }
+   
+    .tituloCom{
+        font-size: 20vh; 
+        font-size: 20vw; 
+        position: absolute;
+        top: -285px;
+        left: -35px;
+        background-image: linear-gradient(0deg,#F5E8C7,#DEBA9D );
+        background-clip: text;
+        -webkit-background-clip:text;
+        -moz-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+           
+    }
+
+    .tituloPost{
+        font-size: 20vh; 
+        font-size: 20vw; 
+        position: absolute;
+        top:-300px ;
+        left: 10px;;
+        background-image: linear-gradient(0deg,#DEBA9D,#9E7777 );
+        background-clip: text;
+        -webkit-background-clip:text;
+        -moz-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+    }
+
+    .tituloBebida{
+        font-size: 20vh; 
+        font-size: 20vw; 
+        position: absolute;
+        top:-300px ;
+        left: 110px;
+        background-image: linear-gradient(0deg,#9E7777,#6F4C5B);
+        background-clip: text;
+        -webkit-background-clip:text;
+        -moz-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+    }
+     
+    .Mv{
+        position: relative;
+    }
+     
+    .catalogoP{
+        position: relative;
+    }
+    
+    .catalogoP h2 {
+
+        position: absolute;
+    }
+
+    .C{
+
+        left: 8vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .P{
+        left: 42vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+        
+    }
+    .B{
+        left: 76vw;
+        top: 35vh;
+        color: white;
+        font-size: 70px;
+      
+    }
+
+
+    .C:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+
+    .P:hover{
+
+        transform: translateY(-15px);
+       
+
+    }
+   
+    .B:hover{
+
+        transform: translateY(-15px);
+        
+
+    }
+
+
+
+
 /* RESPONSIVE */
 
 @media(min-width: 361px){
@@ -523,6 +732,7 @@ main section article div{
     .navigationBar{
         display: none;
     }
+    
 }
 
 @media(min-width:768px){
@@ -609,7 +819,73 @@ main section article div{
         max-width: 525px;
     }
 
-    /* LOG IN */
+      /* -----------------------------------------Product Cart--------------------------------- */
+
+      main h4{
+        margin-left: 10%;
+    }
+
+    main section {
+
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .product_image{
+        width: 20%;
+    }
+
+
+    .item-description{
+        height: 100%; 
+        width: 75%;       
+    }
+
+    .subtotal{
+        font-weight: bold;
+        color: honeydew;
+        height: 100%;
+        width: 60%;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 1.1%;
+    }
+
+    .delete-item{
+        margin-top: 0.85%;
+    }
+
+       /* ------------------------------Product Detail-------------------------------------------- */
+/* 
+       .tituloCom{
+        font-size: 1.2em;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+           
+    }
+
+    .tituloPost{
+        width: 100%;
+        height: 100%;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .tituloBebida{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+ */
+
+    /* --------------------------------------------LOG IN-------------------------------------------- */
 
     .loginForm{
         height: 40vh;
@@ -632,7 +908,7 @@ main section article div{
         margin-top: 30%;
     }
 
-    /*  Load Products */
+    /*  --------------------------------------------Load Products-------------------------------------------- */
 
 
     .mainProductLoadForm{
@@ -655,7 +931,9 @@ main section article div{
 }
 
 @media(min-width:769px){
-    /* INDEX */
+    
+  
+    /* --------------------------------------------INDEX-------------------------------------------- */
     .fatherSlider{
         min-height: 42vh;
         margin: 5% 0px;
@@ -678,13 +956,13 @@ main section article div{
         max-height: 425px;
     }
 
-    /* LOG IN */
+    /* --------------------------------------------LOG IN-------------------------------------------- */
 
     .loginForm{
         margin: 0;
     }
     
-    /* Product Cart */
+    /* --------------------------------------------Product Cart-------------------------------------------- */
 
     main h4{
         margin-left: 10%;
@@ -720,168 +998,39 @@ main section article div{
         margin-top: 0.85%;
     }
 
-    /* productDetail */
-    
-    .catalogoP{
+    /*------------------------------Product Detail--------------------------------------------*/
 
-    height:100%;
-    width: 100%;
-     
-    }
-    .catalogoP .divCat{
-
-        display: inline;
-        height: 100vh;
-        width: 33vw;
-        z-index: -10;
-      
-    }
-    .catalogoP .divCat .imgCat{
-
-        height: 100vh;
-        width: 80vw;
-    }
-
-    .catalogoP .divCat #imgPostre{
-   
-      width: 50vw;
-       
-    }
-
-    .menuC{
-        width: 100vw;
-        height: 100vh;
+    /* .tituloCom{
+        
         display: flex;
-       
-         justify-content: center;
-    }
-    .comida, .postres, .bebidas{
-
-        width: 100vw;
-        height: 100vh;
-       display: flex;
-       flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap;
+        
            
-    }   
-    .comida{
-        background-image: url(/images/comidaF.jpg)
     }
 
-     .comida .Mv ,  .postres .Mv, .bebidas .Mv{
-        width: 250px;
-        height: 300px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(255, 255, 255,1);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-        transition: all 0.25s;
-        background-color: whitesmoke;
-    }
-    
-
-
-     .comida .Mv:hover{
-
-        transform: translateY(-15px);
-        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
-
-
-    }
-    .bebidas{
-        background-image: url(/images/bebidaF.jpg);
-    }
-    .bebidas .Mv:hover{
-
-        transform: translateY(-15px);
-        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
-
-
-
-    }
-   .postres{
-       background-image: url(/images/postreF.jpg);
-   }
-    .postres .Mv:hover{
-
-        transform: translateY(-15px);
-        box-shadow: 0 12px 16px rgb(122, 122, 122,1);
-
-
-    }
-   
-   
-    .comida .Mv .imgMV,.bebidas .Mv .imgMV, .postres .Mv .imgMV {
-
-        height: 200px;
-        width: 280px;
-
-    }
-   
-    .comida .Mv p ,.bebidas .Mv p,  .postres .Mv p {
-
-        padding: 0 1rem;
-        font-size: 16px;
-        font-weight: 300;
+    .tituloPost{
+        display: flex;
+        flex-wrap: wrap;
         
     }
-    
-    .catalogoP{
-        position: relative;
-    }
-    
-    .catalogoP h2 {
 
-        position: absolute;
-    }
+    .tituloBebida{
+        display: flex;
+        flex-wrap: wrap;
+     
+    } 
 
-    .C{
-
-        left: 8vw;
-        top: 35vh;
-        color: white;
-        font-size: 70px;
-        
-    }
-    .P{
-        left: 42vw;
-        top: 35vh;
-        color: white;
-        font-size: 70px;
-        
-    }
-    .B{
-        left: 76vw;
-        top: 35vh;
-        color: white;
-        font-size: 70px;
+    .comida .Mv ,  .postres .Mv, .bebidas .Mv{
       
-    }
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }*/
 
-
-    .C:hover{
-
-        transform: translateY(-15px);
-       
-
-    }
-
-    .P:hover{
-
-        transform: translateY(-15px);
-       
-
-    }
    
-    .B:hover{
 
-        transform: translateY(-15px);
-        
-
-    }
-
-    /*  Product Load */
+    /*  -------------------------------------------Product Load------------------------------------------ */
 
     .registerProductsLoadForm{
         margin-top: 4.5%;
@@ -898,4 +1047,29 @@ main section article div{
     .mainDivForm{
         height: 80%;
     }
+}
+
+@media  (max-width:900px){
+
+
+
+.comida{
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .postres{
+    display: flex;
+    flex-direction: column;
+   
+
+ }
+
+ .bebidas{
+
+    display: flex;
+    flex-direction: column;
+ }
+
 }
